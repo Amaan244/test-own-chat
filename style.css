@@ -351,6 +351,9 @@ main .menu-btn img {
   main header .menu-btn {
     display: block;
   }
+  main header .menu-btn img {
+    width: 44px;
+  }
   main .container {
     position: relative;
   }
@@ -372,11 +375,12 @@ main .menu-btn img {
   }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 500px) {
   main .title h1 {
     font-size: 20px;
   }
   main .title img {
+    width: 50px;
     margin-left: 0px;
   }
   main .chat-area .chats {
