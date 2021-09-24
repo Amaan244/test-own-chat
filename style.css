@@ -371,4 +371,16 @@ main .menu-btn img {
     height: 30vh;
   }
 }
+
+@media screen and (max-width: 410px) {
+  main .title h1 {
+    font-size: 20px;
+  }
+  main .title img {
+    margin-left: 0px;
+  }
+  main .chat-area .chats {
+    height: 50vh;
+  }
+}
 /*# sourceMappingURL=style.css.map */
